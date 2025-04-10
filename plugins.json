@@ -1178,5 +1178,23 @@
     "description": "GolgeTV canlı TV ve diziler için hızlı ve stabil bir çözümdür.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/GolgeTV.cs3",
     "name": "GolgeTV"
+  },
+  {
+    "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+    "apiVersion": 1,
+    "status": 1,
+    "language": "tr",
+    "authors": [
+      "yunus60"
+    ],
+    "tvTypes": [
+      "Live"
+    ],
+    "version": 1,
+    "internalName": "DDizi",
+    "description": "DDizi.im için CloudStream eklentisi",
+    "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DDizi.cs3",
+    "name": "DDizi",
+    "iconUrl": "https://raw.githubusercontent.com/yunus60/cloudstream-providers/main/builds/DDizi.png"
   }
 ]
