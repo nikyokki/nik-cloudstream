@@ -365,7 +365,7 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=fullhdfilm.pro&sz=%size%",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 18261,
+    "fileSize": 18266,
     "status": 1,
     "language": "tr",
     "authors": [
@@ -375,7 +375,7 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 13,
+    "version": 14,
     "internalName": "FullHDFilm",
     "description": "Fullhdfilm ile en yeni vizyon filmler Full HD ve kesintisiz film sizlerle. Özgün film arşivimizle en üstün kaliteli film izle keyfini sunuyoruz.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilm.cs3",
@@ -1107,7 +1107,7 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 21821,
+    "fileSize": 21825,
     "status": 1,
     "language": "tr",
     "authors": [
@@ -1117,7 +1117,7 @@
     "tvTypes": [
       "Movie"
     ],
-    "version": 25,
+    "version": 26,
     "internalName": "WebteIzle",
     "description": "Her türlü filmi ister dublaj ister altyazılı, en kaliteli bir şekilde izleyebileceğiniz arşivi en geniş gerçek film izleme siteniz.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
