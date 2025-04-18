@@ -1199,24 +1199,5 @@
     "description": "YouTube, izlediğiniz videolarla önerilerini iyileştirir. İlginizi çekebilecek içeriklerle dolu bir akış oluşturmak için video izlemeye başlayın.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YouTube.cs3",
     "name": "YouTube"
-  },
-  {
-    "iconUrl": "https://www.apkdelisi.net/wp-content/uploads/2022/03/golge-tv-reklamsiz-mod-apk-canli-tv-apkdelisi-0.jpg",
-    "apiVersion": 1,
-    "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 37779,
-    "status": 1,
-    "language": "tr",
-    "authors": [
-      "nikyokki"
-    ],
-    "tvTypes": [
-      "TV"
-    ],
-    "version": 1,
-    "internalName": "GolgeTV",
-    "description": "GolgeTV canlı TV ve diziler için hızlı ve stabil bir çözümdür.",
-    "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/GolgeTV.cs3",
-    "name": "GolgeTV"
   }
 ]
