@@ -22,7 +22,7 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 23066,
+    "fileSize": 23148,
     "status": 1,
     "language": "tr",
     "authors": [
@@ -34,7 +34,7 @@
     "tvTypes": [
       "Anime"
     ],
-    "version": 8,
+    "version": 9,
     "internalName": "AnimeciX",
     "description": "AnimeciX, animeleri keşfedebileceğiniz ve animeler hakkında her şeyi öğrenebileceğiniz bir paylaşım platformudur.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AnimeciX.cs3",
@@ -245,7 +245,7 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 17242,
+    "fileSize": 17241,
     "status": 1,
     "language": "tr",
     "authors": [
@@ -992,7 +992,7 @@
     "iconUrl": "https://www.google.com/s2/favicons?domain=tvdiziler.cc&sz=%size%",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 26713,
+    "fileSize": 26718,
     "status": 1,
     "language": "tr",
     "authors": [
@@ -1001,7 +1001,7 @@
     "tvTypes": [
       "TvSeries"
     ],
-    "version": 1,
+    "version": 2,
     "internalName": "TvDiziler",
     "description": "Ücretsiz yerli dizi izleme sitesi en popüler dizileri tek parça hd kalitesiyle ve reklamsız bedava olarak buradan tv dizileri izleyin.",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TvDiziler.cs3",
