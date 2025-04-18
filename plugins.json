@@ -661,10 +661,10 @@
     "name": "KultFilmler"
   },
   {
-    "iconUrl": "https://iosmirror.cc/img/nf2/icon_x192.png",
+    "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
     "apiVersion": 1,
     "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-    "fileSize": 38592,
+    "fileSize": 36950,
     "status": 1,
     "language": "hi",
     "authors": [
@@ -676,7 +676,7 @@
       "Movie",
       "TvSeries"
     ],
-    "version": 9,
+    "version": 10,
     "internalName": "NetflixMirror",
     "description": "Netflix, PrimeVideo Content in Multiple Languages",
     "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/NetflixMirror.cs3",
