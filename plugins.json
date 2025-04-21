@@ -524,7 +524,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22402,
+        "fileSize": 22401,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -533,7 +533,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "HDFilmSitesi",
         "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere T\u00fcrk\u00e7e Dublaj ve Altyaz\u0131l\u0131 olarak Reklams\u0131z Kesintisiz HD Film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
@@ -829,7 +829,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20735,
+        "fileSize": 20733,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -838,7 +838,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "RoketDizi",
         "description": "T\u00fcrkiye'nin en tatl\u0131\u015f yabanc\u0131 dizi izleme sitesi. T\u00fcrk\u00e7e dublaj, altyaz\u0131l\u0131, eski ve yeni yabanc\u0131 dizilerin yan\u0131 s\u0131ra kore (asya) dizileri izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
@@ -1126,7 +1126,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 21821,
+        "fileSize": 21825,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1136,7 +1136,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 26,
+        "version": 27,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
