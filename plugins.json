@@ -504,7 +504,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.hdfilmcehennemi2.nl&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22753,
+        "fileSize": 23797,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -513,7 +513,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 3,
+        "version": 4,
         "internalName": "HDFilmCehennemi2",
         "description": "Full hd film izleme keyfini hdfilmcehennemi2 ile ya\u015fay\u0131n. T\u00fcrkiyenin en g\u00fcncel y\u00fcksek hd kalitede film izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi2.cs3",
