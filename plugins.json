@@ -65,7 +65,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18676,
+        "fileSize": 17401,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -76,7 +76,7 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "CanliTV",
         "description": "Canl\u0131 TV",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/CanliTV.cs3",
