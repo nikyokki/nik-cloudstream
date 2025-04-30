@@ -1164,7 +1164,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 21821,
+        "fileSize": 22421,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1174,7 +1174,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 27,
+        "version": 28,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
@@ -1222,7 +1222,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=yabancidizi.tv&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 36328,
+        "fileSize": 37835,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1231,7 +1231,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 2,
+        "version": 3,
         "internalName": "YabanciDizi",
         "description": "Son \u00e7\u0131kan yabanc\u0131 dizi ve filmleri yabancidizi' de izle. En yeni yabanc\u0131 film ve diziler, t\u00fcrk\u00e7e altyaz\u0131l\u0131 yada dublaj olarak 1080p kalitesinde hd izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YabanciDizi.cs3",
