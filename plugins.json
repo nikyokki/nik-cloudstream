@@ -44,7 +44,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=belgeselx.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 19702,
+        "fileSize": 20308,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -55,7 +55,7 @@
         "tvTypes": [
             "Documentary"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "BelgeselX",
         "description": "En yeni belgeseller, t\u00fcrk\u00e7e altyaz\u0131l\u0131 yada dublaj olarak 1080p kalitesinde HD belgesel izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/BelgeselX.cs3",
