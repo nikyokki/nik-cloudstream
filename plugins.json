@@ -944,29 +944,6 @@
         "name": "SinemaCX"
     },
     {
-        "iconUrl": "https://play-lh.googleusercontent.com/brwGNmr7IjA_MKk_TTPs0va10hdKE_bD_a1lnKoiMuCayW98EHpRv55edA6aEoJlmwfX",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 25307,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "keyiflerolsun",
-            "yusiqo",
-            "nikyokki"
-        ],
-        "tvTypes": [
-            "Movie",
-            "TvSeries",
-            "Anime"
-        ],
-        "version": 12,
-        "internalName": "SineWix",
-        "description": "Sinewix | \u00dccretsiz Film - Dizi - Anime \u0130zleme Uygulamas\u0131.",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SineWix.cs3",
-        "name": "SineWix"
-    },
-    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=spankbang.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
@@ -1274,25 +1251,5 @@
         "description": "Son \u00e7\u0131kan yabanc\u0131 dizi ve filmleri yabancidizi' de izle. En yeni yabanc\u0131 film ve diziler, t\u00fcrk\u00e7e altyaz\u0131l\u0131 yada dublaj olarak 1080p kalitesinde hd izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YabanciDizi.cs3",
         "name": "YabanciDizi"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=youtube.com&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 14032,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "Cloudburst",
-            "keyiflerolsun"
-        ],
-        "tvTypes": [
-            "Others"
-        ],
-        "version": 5,
-        "internalName": "YouTube",
-        "description": "YouTube, izledi\u011finiz videolarla \u00f6nerilerini iyile\u015ftirir. \u0130lginizi \u00e7ekebilecek i\u00e7eriklerle dolu bir ak\u0131\u015f olu\u015fturmak i\u00e7in video izlemeye ba\u015flay\u0131n.",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/YouTube.cs3",
-        "name": "YouTube"
     }
 ]
