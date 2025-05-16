@@ -185,7 +185,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18649,
+        "fileSize": 18653,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -195,7 +195,7 @@
         "tvTypes": [
             "AsianDrama"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "DiziKorea",
         "description": "En G\u00fcncel Kore Dizileri izleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziKorea.cs3",
