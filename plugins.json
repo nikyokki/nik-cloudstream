@@ -601,25 +601,6 @@
         "name": "InatBox"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18677,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "patr0n"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 3,
-        "internalName": "iptvSevenler",
-        "description": "iptvSevenler",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/iptvSevenler.cs3",
-        "name": "iptvSevenler"
-    },
-    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
@@ -843,25 +824,6 @@
         "description": "T\u00fcrkiye'nin en tatl\u0131\u015f yabanc\u0131 dizi izleme sitesi. T\u00fcrk\u00e7e dublaj, altyaz\u0131l\u0131, eski ve yeni yabanc\u0131 dizilerin yan\u0131 s\u0131ra kore (asya) dizileri izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
         "name": "RoketDizi"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18676,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "patr0n"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 1,
-        "internalName": "SakultahTV",
-        "description": "Canl\u0131 TV",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SakultahTV.cs3",
-        "name": "SakultahTV"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
