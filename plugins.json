@@ -848,25 +848,6 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18246,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "Sakultah"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 5,
-        "internalName": "SakultahSpor",
-        "description": "SakultahSpor",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SakultahSpor.cs3",
-        "name": "SakultahSpor"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
         "fileSize": 18676,
         "status": 1,
         "language": "tr",
