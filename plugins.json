@@ -321,25 +321,6 @@
         "name": "DMax"
     },
     {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18683,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "patr0n"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 1,
-        "internalName": "DragonTV",
-        "description": "Canl\u0131 TV",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DragonTV.cs3",
-        "name": "DragonTV"
-    },
-    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmizlesene.plus&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
@@ -881,6 +862,25 @@
         "description": "SakultahSpor",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SakultahSpor.cs3",
         "name": "SakultahSpor"
+    },
+    {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+        "fileSize": 18676,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "patr0n"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 1,
+        "internalName": "SakultahTV",
+        "description": "Canl\u0131 TV",
+        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SakultahTV.cs3",
+        "name": "SakultahTV"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
