@@ -864,6 +864,25 @@
         "name": "RoketDizi"
     },
     {
+        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
+        "fileSize": 18238,
+        "status": 1,
+        "language": "tr",
+        "authors": [
+            "Sakultah"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 5,
+        "internalName": "SakultahSpor",
+        "description": "SakultahSpor",
+        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SakultahSpor.cs3",
+        "name": "SakultahSpor"
+    },
+    {
         "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
@@ -881,25 +900,6 @@
         "description": "Selcukflix'te her t\u00fcrden en yeni ve en pop\u00fcler dizi ve filmleri izlemenin keyfini \u00e7\u0131kar\u0131n. Aksiyondan romanti\u011fe, bilim kurgudan dramaya, geni\u015f k\u00fct\u00fcphanemizde herkes i\u00e7in bir \u015fey var.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SelcukFlix.cs3",
         "name": "SelcukFlix"
-    },
-    {
-        "iconUrl": "https://www.google.com/s2/favicons?domain=tr.canlitv.team&sz=%size%",
-        "apiVersion": 1,
-        "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18269,
-        "status": 1,
-        "language": "tr",
-        "authors": [
-            "Sakultah"
-        ],
-        "tvTypes": [
-            "Live"
-        ],
-        "version": 5,
-        "internalName": "Selcuksports",
-        "description": "TRGoals",
-        "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/Selcuksports.cs3",
-        "name": "Selcuksports"
     },
     {
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
