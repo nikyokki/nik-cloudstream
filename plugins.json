@@ -383,7 +383,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 14785,
+        "fileSize": 14787,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -393,7 +393,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 9,
+        "version": 10,
         "internalName": "FilmModu",
         "description": "Film modun geldiyse y\u00fcksek kalitede en yeni filmleri izle, 1080p izleyebilece\u011finiz reklamsiz film sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmModu.cs3",
@@ -604,7 +604,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20328,
+        "fileSize": 20330,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -614,7 +614,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 22,
+        "version": 23,
         "internalName": "JetFilmizle",
         "description": "Binlerce Film \u0130zleme Se\u00e7ene\u011fiyle En \u0130yi Film \u0130zleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
@@ -785,7 +785,7 @@
         "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20699,
+        "fileSize": 20697,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -800,7 +800,7 @@
             "Live",
             "TvSeries"
         ],
-        "version": 74,
+        "version": 75,
         "internalName": "RecTV",
         "description": "RecTv APK, T\u00fcrkiye\u2019deki en pop\u00fcler \u00c7evrimi\u00e7i Medya Ak\u0131\u015f platformlar\u0131ndan biridir. Filmlerin, Canl\u0131 Sporlar\u0131n, Web Dizilerinin ve \u00e7ok daha fazlas\u0131n\u0131n keyfini \u00fccretsiz \u00e7\u0131kar\u0131n.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RecTV.cs3",
