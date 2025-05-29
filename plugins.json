@@ -483,7 +483,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 23023,
+        "fileSize": 23016,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -811,7 +811,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20733,
+        "fileSize": 20736,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -820,7 +820,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "RoketDizi",
         "description": "T\u00fcrkiye'nin en tatl\u0131\u015f yabanc\u0131 dizi izleme sitesi. T\u00fcrk\u00e7e dublaj, altyaz\u0131l\u0131, eski ve yeni yabanc\u0131 dizilerin yan\u0131 s\u0131ra kore (asya) dizileri izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
