@@ -443,7 +443,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.fullhdfilmizlesene.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 29756,
+        "fileSize": 31821,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -453,7 +453,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 7,
+        "version": 8,
         "internalName": "FullHDFilmizlesene",
         "description": "Sinema zevkini evinize kadar getirdik. T\u00fcrkiye'nin lider Film sitesinde, en yeni filmleri Full HD izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FullHDFilmizlesene.cs3",
@@ -483,7 +483,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 25294,
+        "fileSize": 27782,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -495,7 +495,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 23,
+        "version": 24,
         "internalName": "HDFilmCehennemi",
         "description": "T\u00fcrkiye'nin en h\u0131zl\u0131 hd film izleme sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi.cs3",
