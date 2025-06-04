@@ -1011,7 +1011,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=trgoalsgiris.xyz/&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18283,
+        "fileSize": 18238,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1020,7 +1020,7 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "TRGoals",
         "description": "TRGoals",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/TRGoals.cs3",
