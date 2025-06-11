@@ -186,7 +186,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizikorea.vip&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18653,
+        "fileSize": 18649,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -196,7 +196,7 @@
         "tvTypes": [
             "AsianDrama"
         ],
-        "version": 8,
+        "version": 9,
         "internalName": "DiziKorea",
         "description": "En G\u00fcncel Kore Dizileri izleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziKorea.cs3",
@@ -1164,7 +1164,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22420,
+        "fileSize": 22422,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1174,7 +1174,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 31,
+        "version": 32,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
