@@ -11,7 +11,7 @@ import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
 import org.jsoup.Jsoup
 
 class DiziKorea : MainAPI() {
-    override var mainUrl              = "https://dizikorea.pw"
+    override var mainUrl              = "https://dizikorea.pw/cgi-sys/suspendedpage.cgi"
     override var name                 = "DiziKorea"
     override val hasMainPage          = true
     override var lang                 = "tr"
