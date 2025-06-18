@@ -665,7 +665,7 @@
         "iconUrl": "https://netfree2.cc/mobile/img/nf2/icon_x192.png",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 46589,
+        "fileSize": 48116,
         "status": 1,
         "language": "en",
         "authors": [
@@ -676,7 +676,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 14,
+        "version": 15,
         "internalName": "NetflixMirror",
         "description": "Netflix, PrimeVideo Content in Multiple Languages",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/NetflixMirror.cs3",
