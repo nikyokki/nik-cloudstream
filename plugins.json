@@ -849,7 +849,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.setfilmizle.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 21747,
+        "fileSize": 22654,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -859,7 +859,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 10,
+        "version": 11,
         "internalName": "SetFilmIzle",
         "description": "Setfilmizle sitemizde, donma ya\u015famadan T\u00fcrk\u00e7e dublaj ve altyaz\u0131l\u0131 filmleri ile dizileri muhte\u015fem 1080p full HD kalitesinde izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SetFilmIzle.cs3",
