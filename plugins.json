@@ -255,7 +255,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 14,
+        "version": 15,
         "internalName": "DiziMom",
         "description": "Binlerce yerli yabanc\u0131 dizi ar\u015fivi, t\u00fcm sezonlar, kesintisiz b\u00f6l\u00fcmler. Sadece dizi izle, Dizimom heryerde seninle!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMom.cs3",
@@ -605,7 +605,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://jetfilmizle.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 21805,
+        "fileSize": 21804,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -615,7 +615,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 27,
+        "version": 28,
         "internalName": "JetFilmizle",
         "description": "Binlerce Film \u0130zleme Se\u00e7ene\u011fiyle En \u0130yi Film \u0130zleme Sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/JetFilmizle.cs3",
@@ -1163,7 +1163,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22421,
+        "fileSize": 22423,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -1173,7 +1173,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 36,
+        "version": 37,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
