@@ -22,7 +22,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=animecix.net&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 23147,
+        "fileSize": 23158,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -34,7 +34,7 @@
         "tvTypes": [
             "Anime"
         ],
-        "version": 9,
+        "version": 10,
         "internalName": "AnimeciX",
         "description": "AnimeciX, animeleri ke\u015ffedebilece\u011finiz ve animeler hakk\u0131nda her \u015feyi \u00f6\u011frenebilece\u011finiz bir payla\u015f\u0131m platformudur.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AnimeciX.cs3",
