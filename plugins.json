@@ -44,7 +44,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 30099,
+        "fileSize": 30151,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -54,7 +54,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "AsyaWatch",
         "description": "Asyawatch",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AsyaWatch.cs3",
@@ -245,7 +245,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizimom.tv&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 30542,
+        "fileSize": 30575,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -255,7 +255,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 17,
+        "version": 18,
         "internalName": "DiziMom",
         "description": "Binlerce yerli yabanc\u0131 dizi ar\u015fivi, t\u00fcm sezonlar, kesintisiz b\u00f6l\u00fcmler. Sadece dizi izle, Dizimom heryerde seninle!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziMom.cs3",
@@ -363,7 +363,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=filmmakinesi.film&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22593,
+        "fileSize": 22753,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -374,7 +374,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 15,
+        "version": 16,
         "internalName": "FilmMakinesi",
         "description": "Film Makinesi, en yeni ve en g\u00fcncel filmleri sitemizde full HD kalite fark\u0131 ile izleyebilirsiniz. HD film izle denildi\u011finde akla gelen en kaliteli film izleme sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmMakinesi.cs3",
@@ -604,7 +604,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=kultfilmler.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 19554,
+        "fileSize": 19751,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -615,7 +615,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 10,
+        "version": 11,
         "internalName": "KultFilmler",
         "description": "K\u00fclt Filmler \u00f6zenle en iyi filmleri derler ve iyi bir altyaz\u0131l\u0131 film izleme deneyimi sunmay\u0131 ama\u00e7lar",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/KultFilmler.cs3",
@@ -688,7 +688,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=roketdizi.co&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 37373,
+        "fileSize": 37404,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -697,7 +697,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 14,
+        "version": 15,
         "internalName": "RoketDizi",
         "description": "T\u00fcrkiye'nin en tatl\u0131\u015f yabanc\u0131 dizi izleme sitesi. T\u00fcrk\u00e7e dublaj, altyaz\u0131l\u0131, eski ve yeni yabanc\u0131 dizilerin yan\u0131 s\u0131ra kore (asya) dizileri izleyebilirsiniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RoketDizi.cs3",
@@ -707,7 +707,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=selcukflix.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 30085,
+        "fileSize": 30130,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -717,7 +717,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "SelcukFlix",
         "description": "Selcukflix'te her t\u00fcrden en yeni ve en pop\u00fcler dizi ve filmleri izlemenin keyfini \u00e7\u0131kar\u0131n. Aksiyondan romanti\u011fe, bilim kurgudan dramaya, geni\u015f k\u00fct\u00fcphanemizde herkes i\u00e7in bir \u015fey var.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SelcukFlix.cs3",
@@ -747,7 +747,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=sezonlukdizi6.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22624,
+        "fileSize": 22617,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -758,7 +758,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "SezonlukDizi",
         "description": "G\u00fcncel ve eski dizileri en iyi g\u00f6r\u00fcnt\u00fc kalitesiyle bulabilece\u011finiz yabanc\u0131 dizi izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SezonlukDizi.cs3",
@@ -788,7 +788,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://www.sinewix.com/&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 28369,
+        "fileSize": 28626,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -799,7 +799,7 @@
             "TvSeries",
             "Anime"
         ],
-        "version": 2,
+        "version": 3,
         "internalName": "SineWix",
         "description": "SineWix | Film - Dizi - Anime \u0130zleme Uygulamas\u0131",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SineWix.cs3",
@@ -963,7 +963,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 27054,
+        "fileSize": 27053,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -973,7 +973,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 42,
+        "version": 43,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
