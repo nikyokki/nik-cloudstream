@@ -286,7 +286,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.diziyou.co&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 14320,
+        "fileSize": 14321,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -296,7 +296,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 12,
+        "version": 13,
         "internalName": "DiziYou",
         "description": "Diziyou en kaliteli T\u00fcrk\u00e7e dublaj ve altyaz\u0131l\u0131 yabanc\u0131 dizi izleme sitesidir. G\u00fcncel ve efsanevi dizileri 1080p Full HD kalitede izlemek i\u00e7in hemen t\u0131kla!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziYou.cs3",
@@ -963,7 +963,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=webteizle2.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 26974,
+        "fileSize": 26972,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -973,7 +973,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 40,
+        "version": 41,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
