@@ -3,7 +3,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.4kfilmizlesene.org&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 11824,
+        "fileSize": 11825,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -12,7 +12,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "4KFilmIzlesene",
         "description": "En yeni ve sorunsuz \u26a1  Full HD Film izle keyfi her yerde sizinle ! 4K ve 1080p online film izleme fark\u0131yla 4KFilmizlesene&amp;#039;nin Tad\u0131n\u0131 \u00c7\u0131kart.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/4KFilmIzlesene.cs3",
@@ -44,7 +44,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=asyawatch.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 29976,
+        "fileSize": 30099,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -54,7 +54,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 4,
+        "version": 5,
         "internalName": "AsyaWatch",
         "description": "Asyawatch",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/AsyaWatch.cs3",
@@ -106,7 +106,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=cizgimax.online&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18411,
+        "fileSize": 18491,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -116,7 +116,7 @@
         "tvTypes": [
             "Cartoon"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "CizgiMax",
         "description": "\u00c7izgiMax ile \u00c7izgi Film izlemek art\u0131k daha kolay, donmadan full hd ve reklams\u0131z bir sitedir, i\u00e7erisinde 700 den fazla \u00e7izgi film olan, Bu site bu i\u015fi profesyonelce yap\u0131yor.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/CizgiMax.cs3",
@@ -147,7 +147,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22753,
+        "fileSize": 22875,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -157,7 +157,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 8,
+        "version": 9,
         "internalName": "DiziBox",
         "description": "Yabanc\u0131 Dizi izle, T\u00fcm yabanc\u0131 dizilerin yeni ve eski sezonlar\u0131n\u0131 full hd izleyebilece\u011finiz elit site.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziBox.cs3",
@@ -992,7 +992,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 6,
+        "version": 7,
         "internalName": "WFilm\u0130zle",
         "description": "Aile Filmleri izle, Yerli ve yabanc\u0131 en yeni Aile filmlerini Full HD 1080p g\u00f6r\u00fcnt\u00fc kalitesiyle T\u00fcrk\u00e7e Dublaj ve T\u00fcrk\u00e7e Altyaz\u0131 se\u00e7enekleriyle izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WFilm\u0130zle.cs3",
