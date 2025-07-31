@@ -384,7 +384,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmmodu17.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 18302,
+        "fileSize": 18285,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -394,7 +394,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 12,
+        "version": 13,
         "internalName": "FilmModu",
         "description": "Film modun geldiyse y\u00fcksek kalitede en yeni filmleri izle, 1080p izleyebilece\u011finiz reklamsiz film sitesi.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmModu.cs3",
