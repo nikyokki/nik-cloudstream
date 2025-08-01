@@ -544,7 +544,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22851,
+        "fileSize": 20516,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -553,7 +553,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 13,
+        "version": 14,
         "internalName": "HDFilmSitesi",
         "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere T\u00fcrk\u00e7e Dublaj ve Altyaz\u0131l\u0131 olarak Reklams\u0131z Kesintisiz HD Film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
