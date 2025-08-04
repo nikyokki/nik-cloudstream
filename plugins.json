@@ -276,7 +276,7 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 36,
+        "version": 37,
         "internalName": "DiziPal",
         "description": "en yeni dizileri g\u00fcvenli ve h\u0131zl\u0131 \u015fekilde sunar.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziPal.cs3",
