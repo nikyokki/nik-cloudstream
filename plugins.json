@@ -265,7 +265,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=https://dizipal683.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 19206,
+        "fileSize": 19207,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -276,7 +276,7 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 37,
+        "version": 38,
         "internalName": "DiziPal",
         "description": "en yeni dizileri g\u00fcvenli ve h\u0131zl\u0131 \u015fekilde sunar.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziPal.cs3",
@@ -296,7 +296,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 15,
+        "version": 16,
         "internalName": "DiziYou",
         "description": "Diziyou en kaliteli T\u00fcrk\u00e7e dublaj ve altyaz\u0131l\u0131 yabanc\u0131 dizi izleme sitesidir. G\u00fcncel ve efsanevi dizileri 1080p Full HD kalitede izlemek i\u00e7in hemen t\u0131kla!",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziYou.cs3",
@@ -544,7 +544,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmsitesi.net&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20516,
+        "fileSize": 20514,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -553,7 +553,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 14,
+        "version": 15,
         "internalName": "HDFilmSitesi",
         "description": "Film izle, Hdfilmsitesi ile Online 1080p ve 4K kalite Full HD Filmlere T\u00fcrk\u00e7e Dublaj ve Altyaz\u0131l\u0131 olarak Reklams\u0131z Kesintisiz HD Film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmSitesi.cs3",
@@ -698,7 +698,7 @@
             "Live",
             "TvSeries"
         ],
-        "version": 76,
+        "version": 77,
         "internalName": "RecTV",
         "description": "RecTv APK, T\u00fcrkiye\u2019deki en pop\u00fcler \u00c7evrimi\u00e7i Medya Ak\u0131\u015f platformlar\u0131ndan biridir. Filmlerin, Canl\u0131 Sporlar\u0131n, Web Dizilerinin ve \u00e7ok daha fazlas\u0131n\u0131n keyfini \u00fccretsiz \u00e7\u0131kar\u0131n.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RecTV.cs3",
@@ -993,7 +993,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 49,
+        "version": 50,
         "internalName": "WebteIzle",
         "description": "Her t\u00fcrl\u00fc filmi ister dublaj ister altyaz\u0131l\u0131, en kaliteli bir \u015fekilde izleyebilece\u011finiz ar\u015fivi en geni\u015f ger\u00e7ek film izleme siteniz.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/WebteIzle.cs3",
