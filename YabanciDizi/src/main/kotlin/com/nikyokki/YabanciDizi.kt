@@ -37,7 +37,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 class YabanciDizi : MainAPI() {
-    override var mainUrl = "https://yabancidizi.tv"
+    override var mainUrl = "https://yabancidizi.so"
     override var name = "YabanciDizi"
     override val hasMainPage = true
     override var lang = "tr"
@@ -248,7 +248,7 @@ class YabanciDizi : MainAPI() {
                 Log.d("YBD", dataHash)
                 if (name.contains("Mac")) {
                     val mac = app.get(
-                        "https://yabancidizi.tv/api/drive/" +
+                        "https://yabancidizi.so/api/drive/" +
                                 dataLink.replace("/", "_").replace("+", "-"),
                         referer = "$mainUrl/",
                         headers =
@@ -260,9 +260,9 @@ class YabanciDizi : MainAPI() {
                         val timestampInSeconds = System.currentTimeMillis() / 1000
                         Log.d("YBD", "timestampInSeconds -> $timestampInSeconds")
                         val drives = app.get(
-                            "https://yabancidizi.tv/api/drives/" +
+                            "https://yabancidizi.so/api/drives/" +
                                     dataLink.replace("/", "_").replace("+", "-") + "?t=$timestampInSeconds",
-                            referer = "https://yabancidizi.tv/api/drives/" +
+                            referer = "https://yabancidizi.so/api/drives/" +
                                     dataLink.replace("/", "_").replace("+", "-"),
                             headers =
                             mapOf("user-agent" to "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0")
@@ -278,7 +278,7 @@ class YabanciDizi : MainAPI() {
 
                 } else if (name.contains("VidMoly")) {
                     val vdm = app.get(
-                        "https://yabancidizi.tv/api/moly/" +
+                        "https://yabancidizi.so/api/moly/" +
                                 dataLink.replace("/", "_").replace("+", "-"), referer = "$mainUrl/",
                         headers =
                         mapOf("user-agent" to "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0")
@@ -301,7 +301,7 @@ class YabanciDizi : MainAPI() {
                     }
                 } else if (name.contains("Okru")) {
                     val okr = app.get(
-                        "https://yabancidizi.tv/api/ruplay/" +
+                        "https://yabancidizi.so/api/ruplay/" +
                                 dataLink.replace("/", "_").replace("+", "-"), referer = "$mainUrl/",
                         headers =
                         mapOf("user-agent" to "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0")
