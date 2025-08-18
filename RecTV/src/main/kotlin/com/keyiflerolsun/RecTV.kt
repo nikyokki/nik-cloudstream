@@ -33,7 +33,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import okhttp3.Interceptor
 
 class RecTV : MainAPI() {
-    override var mainUrl = "https://m.prectv52.lol"
+    override var mainUrl = "https://m.prectv50.sbs"
     override var name = "RecTV"
     override val hasMainPage = true
     override var lang = "tr"
