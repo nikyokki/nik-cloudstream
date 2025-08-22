@@ -147,7 +147,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.dizibox.de&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 22765,
+        "fileSize": 22767,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -157,7 +157,7 @@
         "tvTypes": [
             "TvSeries"
         ],
-        "version": 9,
+        "version": 10,
         "internalName": "DiziBox",
         "description": "Yabanc\u0131 Dizi izle, T\u00fcm yabanc\u0131 dizilerin yeni ve eski sezonlar\u0131n\u0131 full hd izleyebilece\u011finiz elit site.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/DiziBox.cs3",
