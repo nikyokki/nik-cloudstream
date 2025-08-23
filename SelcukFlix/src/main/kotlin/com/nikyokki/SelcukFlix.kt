@@ -35,7 +35,7 @@ import org.jsoup.Jsoup
 import java.util.Calendar
 
 class SelcukFlix : MainAPI() {
-    override var mainUrl = "https://selcukflix.com"
+    override var mainUrl = "https://selcukflix.net"
     override var name = "SelcukFlix"
     override val hasMainPage = true
     override var lang = "tr"
