@@ -683,7 +683,7 @@
         "iconUrl": "https://rectvapk.cc/wp-content/uploads/2023/02/Rec-TV.webp",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 20932,
+        "fileSize": 20935,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -698,7 +698,7 @@
             "Live",
             "TvSeries"
         ],
-        "version": 82,
+        "version": 83,
         "internalName": "RecTV",
         "description": "RecTv APK, T\u00fcrkiye\u2019deki en pop\u00fcler \u00c7evrimi\u00e7i Medya Ak\u0131\u015f platformlar\u0131ndan biridir. Filmlerin, Canl\u0131 Sporlar\u0131n, Web Dizilerinin ve \u00e7ok daha fazlas\u0131n\u0131n keyfini \u00fccretsiz \u00e7\u0131kar\u0131n.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/RecTV.cs3",
@@ -925,7 +925,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=ugurfilm7.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 21439,
+        "fileSize": 22625,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -935,7 +935,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 5,
+        "version": 6,
         "internalName": "UgurFilm",
         "description": "Yabanc\u0131 film izle, T\u00fcrk\u00e7e dublaj ve T\u00fcrk\u00e7e altyaz\u0131l\u0131 film se\u00e7enekleriyle 720p ve 1080p HD kalitesinde film izle - U\u011fur Film full hd film izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/UgurFilm.cs3",
