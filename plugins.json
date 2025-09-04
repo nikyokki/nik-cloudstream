@@ -483,7 +483,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=hdfilmcehennemi.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 28651,
+        "fileSize": 28660,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -495,7 +495,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 35,
+        "version": 36,
         "internalName": "HDFilmCehennemi",
         "description": "T\u00fcrkiye'nin en h\u0131zl\u0131 hd film izleme sitesi",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/HDFilmCehennemi.cs3",
@@ -788,7 +788,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.sinema.cx&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 14645,
+        "fileSize": 14644,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -798,7 +798,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 12,
+        "version": 13,
         "internalName": "SinemaCX",
         "description": "G\u00fcncel ve en iyi yabanc\u0131 filmleri y\u00fcksek g\u00f6r\u00fcnt\u00fc kalitesinde, T\u00fcrk\u00e7e dublaj ve altyaz\u0131 se\u00e7enekleriyle filmleri full izleyin.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SinemaCX.cs3",
@@ -829,7 +829,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.superfilmgeldi.biz&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 19773,
+        "fileSize": 19771,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -839,7 +839,7 @@
         "tvTypes": [
             "Movie"
         ],
-        "version": 19,
+        "version": 20,
         "internalName": "SuperFilmGeldi",
         "description": "Hd film izliyerek arkada\u015flar\u0131n\u0131zla ve sevdiklerinizle iyi bir vakit ge\u00e7irmek istiyorsan\u0131z a\u00e7\u0131n bir film e\u011flenmeye bak\u0131n. Bilim kurgu filmleri, a\u015fk drama vah\u015fet a\u015fk romantik s\u0131rad\u0131\u015f\u0131 korku filmlerini izle.",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/SuperFilmGeldi.cs3",
