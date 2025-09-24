@@ -325,7 +325,7 @@
         "iconUrl": "https://www.google.com/s2/favicons?domain=www.filmizleilk.com&sz=%size%",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/nikyokki/nik-cloudstream",
-        "fileSize": 19949,
+        "fileSize": 19950,
         "status": 1,
         "language": "tr",
         "authors": [
@@ -335,7 +335,7 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 4,
+        "version": 5,
         "internalName": "FilmIzleIlk",
         "description": "Filmizleilk.com Yerli ve Yabanc\u0131 en son Film ve Dizileri Full HD 1080p Bluray Tek Part Full izle",
         "url": "https://raw.githubusercontent.com/nikyokki/nik-cloudstream/builds/FilmIzleIlk.cs3",
