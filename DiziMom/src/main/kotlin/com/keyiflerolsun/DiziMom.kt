@@ -28,7 +28,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class DiziMom : MainAPI() {
-    override var mainUrl = "https://www.dizimom.bio"
+    override var mainUrl = "https://www.dizimom.dog"
     override var name = "DiziMom"
     override val hasMainPage = true
     override var lang = "tr"
