@@ -77,7 +77,7 @@ subprojects {
                 freeCompilerArgs.addAll(
                     "-Xno-call-assertions",
                     "-Xno-param-assertions",
-                    "-Xno-receiver-assertions",
+                    "-Xno-receiver-assertions"
                 )
             }
         }
@@ -86,15 +86,17 @@ subprojects {
     dependencies {
         val implementation by configurations
         val cloudstream by configurations
+        
+        // Stubs for all Cloudstream classes
         cloudstream("com.lagradost:cloudstream3:pre-release")
 
-        // Other dependencies
+        // Dependencies
         implementation(kotlin("stdlib"))
         implementation("com.github.Blatzar:NiceHttp:0.4.18")
         implementation("org.jsoup:jsoup:1.22.2")
         implementation("org.jspecify:jspecify:1.0.0")
         implementation("androidx.annotation:annotation:1.10.0")
-        // Do not bump above 2.13.1
+        // Do not bump above 2.13.1 (Cloudstream core requirement)
         implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.1")
         implementation("com.fasterxml.jackson.core:jackson-databind:2.13.1")
         implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
@@ -107,37 +109,6 @@ subprojects {
     }
 }
 
-tasks.register<Delete>("clean") {
-    delete(rootProject.layout.buildDirectory)
-}
-                        "-Xno-receiver-assertions"
-                    )
-                )
-            }
-        }
-    }
-
-
-    dependencies {
-        val cloudstream by configurations
-        val implementation by configurations
-
-        // Stubs for all Cloudstream classes
-        cloudstream("com.lagradost:cloudstream3:pre-release")
-
-        // these dependencies can include any of those which are added by the app,
-        // but you dont need to include any of them if you dont need them
-        // https://github.com/recloudstream/cloudstream/blob/master/app/build.gradle
-        implementation(kotlin("stdlib"))                                              // Kotlin'in temel kütüphanesi
-        implementation("com.github.Blatzar:NiceHttp:0.4.11")                          // HTTP kütüphanesi
-        implementation("org.jsoup:jsoup:1.21.1")                                      // HTML ayrıştırıcı
-        implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.19.2")   // Kotlin için Jackson JSON kütüphanesi
-        implementation("com.fasterxml.jackson.core:jackson-databind:2.19.2")          // JSON-nesne dönüştürme kütüphanesi
-        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")      // Kotlin için asenkron işlemler
-
-    }
-}
-
-task<Delete>("clean") {
+tasks.register("clean", Delete::class) {
     delete(rootProject.layout.buildDirectory)
 }
