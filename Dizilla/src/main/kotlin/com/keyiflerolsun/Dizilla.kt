@@ -27,7 +27,6 @@ import com.lagradost.cloudstream3.newEpisode
 import com.lagradost.cloudstream3.newHomePageResponse
 import com.lagradost.cloudstream3.newTvSeriesLoadResponse
 import com.lagradost.cloudstream3.newTvSeriesSearchResponse
-import com.lagradost.cloudstream3.toRatingInt
 import com.lagradost.cloudstream3.utils.ExtractorLink
 import com.lagradost.cloudstream3.utils.loadExtractor
 import com.lagradost.cloudstream3.syncproviders.SyncIdName
@@ -70,7 +69,7 @@ class Dizilla : MainAPI() {
             return response
         }
     }
-    
+
     override val supportedSyncNames = setOf(
         SyncIdName.Simkl
     )
@@ -90,10 +89,10 @@ class Dizilla : MainAPI() {
         "${mainUrl}/dizi-turu/romantik" to "Romantik",
     )
 
-    
+
     private fun extractPosterUrl(element: Element): String? {
         val img = element.selectFirst("img") ?: return null
-        
+
         return fixUrlNull(img.attr("src"))
             ?: fixUrlNull(img.attr("data-src"))
             ?: fixUrlNull(img.attr("data-lazy-src"))
@@ -103,9 +102,9 @@ class Dizilla : MainAPI() {
             ?: fixUrlNull(img.attr("data-nimg")?.let { "https://images.macellan.online/images/tv/brand/584/386/100/$it.jpg" })
     }
 
-    
+
     private fun extractPosterUrlFromCategory(element: Element): String? {
-       
+
         val selectors = listOf(
             "img",
             "div img",
@@ -114,7 +113,7 @@ class Dizilla : MainAPI() {
             "div.relative img",
             "div.overflow-hidden img"
         )
-        
+
         for (selector in selectors) {
             val img = element.selectFirst(selector)
             if (img != null) {
@@ -122,14 +121,14 @@ class Dizilla : MainAPI() {
                 if (posterUrl != null) return posterUrl
             }
         }
-        
-        
+
+
         return extractPosterUrl(element)
     }
 
-    
+
     private fun extractPosterUrlFromSonBolumler(element: Element): String? {
-        
+
         val selectors = listOf(
             "img",
             "div img",
@@ -138,7 +137,7 @@ class Dizilla : MainAPI() {
             "div.col-span-3 img",
             "div.relative img"
         )
-        
+
         for (selector in selectors) {
             val img = element.selectFirst(selector)
             if (img != null) {
@@ -146,14 +145,14 @@ class Dizilla : MainAPI() {
                 if (posterUrl != null) return posterUrl
             }
         }
-        
-       
+
+
         return extractPosterUrl(element)
     }
 
-    
+
     private fun extractPosterUrlFromArsiv(element: Element): String? {
-       
+
         val selectors = listOf(
             "img",
             "div img",
@@ -162,7 +161,7 @@ class Dizilla : MainAPI() {
             "div.w-full img",
             "div.relative img"
         )
-        
+
         for (selector in selectors) {
             val img = element.selectFirst(selector)
             if (img != null) {
@@ -170,8 +169,8 @@ class Dizilla : MainAPI() {
                 if (posterUrl != null) return posterUrl
             }
         }
-        
-        
+
+
         return extractPosterUrl(element)
     }
 
@@ -179,24 +178,24 @@ class Dizilla : MainAPI() {
         var document = app.get(request.data, interceptor = interceptor).document
         val home = when {
             request.data.contains("dizi-turu") -> {
-                
+
                 val items = document.select("div.grid a[href*='/dizi/']").ifEmpty {
                     document.select("div.grid div.relative a[href*='/dizi/']").ifEmpty {
                         document.select("a[href*='/dizi/']").filter { it.selectFirst("img") != null }
                     }
                 }
-                
+
                 items.mapNotNull { element ->
                     val title = element.selectFirst("h2")?.text() 
                         ?: element.attr("title")
                         ?: element.selectFirst("img")?.attr("alt")
                         ?: return@mapNotNull null
-                        
+
                     val href = fixUrlNull(element.attr("href")) ?: return@mapNotNull null
-                    
-                    
+
+
                     val posterUrl = extractPosterUrlFromCategory(element)
-                    
+
                     newTvSeriesSearchResponse(title, href, TvType.TvSeries) {
                         this.posterUrl = posterUrl
                     }
@@ -210,7 +209,7 @@ class Dizilla : MainAPI() {
                 document.select("a.w-full").mapNotNull { it.yeniEklenenler() }
             }
             request.data.contains("/tum-bolumler") -> {
-                
+
                 document.select("div.col-span-3 a").mapNotNull { element ->
                     val name = element.selectFirst("h2")?.text() ?: return@mapNotNull null
                     val epName = element.selectFirst("div.opacity-80")?.text()?.replace(". Sezon ", "x")
@@ -218,17 +217,17 @@ class Dizilla : MainAPI() {
 
                     val title = "$name - $epName"
                     val href = fixUrlNull(element.attr("href")) ?: return@mapNotNull null
-                    
-                    
+
+
                     val posterUrl = extractPosterUrlFromSonBolumler(element)
-                    
+
                     newTvSeriesSearchResponse(title, href, TvType.TvSeries) {
                         this.posterUrl = posterUrl
                     }
                 }
             }
             else -> {
-                
+
                 document.select("div.col-span-3 a").mapNotNull { it.sonBolumler() }
             }
         }
@@ -236,13 +235,13 @@ class Dizilla : MainAPI() {
         return newHomePageResponse(request.name, home)
     }
 
-    
+
 
     private fun Element.yeniEklenenler(): SearchResponse? {
         val title = this.selectFirst("h2")?.text() ?: return null
         val href = fixUrlNull(this.attr("href")) ?: return null
-        
-       
+
+
         val posterUrl = extractPosterUrlFromArsiv(this)
 
         val score = this.selectFirst("div.absolute.bottom-0 span")?.text()?.trim()
@@ -263,7 +262,7 @@ class Dizilla : MainAPI() {
 
         val href = fixUrlNull(epDoc?.selectFirst("div.poster a")?.attr("href")) ?: return null
 
-        
+
         val posterUrl = if (epDoc != null) {
             extractPosterUrlFromSonBolumler(epDoc.selectFirst("div.poster img") ?: epDoc.selectFirst("div.poster a") ?: epDoc)
         } else {
@@ -321,13 +320,13 @@ class Dizilla : MainAPI() {
     }
 
     private fun toSearchResponse(ad: String, link: String, posterLink: String): SearchResponse {
-        
+
         val cleanPosterLink = if (posterLink.isNotEmpty() && posterLink != "null") {
             fixUrl(posterLink)
         } else {
             null
         }
-        
+
         return newTvSeriesSearchResponse(
             ad,
             link,
@@ -342,65 +341,65 @@ class Dizilla : MainAPI() {
     override suspend fun load(url: String): LoadResponse? {
         val mainReq = app.get(url, interceptor = interceptor)
         val document = mainReq.document
-        
-        
+
+
         val title = document.selectFirst("div.poster h2, h1.text-2xl")?.text() ?: return null
-        
-        
+
+
         val posterElement = document.selectFirst("div.w-full.page-top.relative img, div.poster img") 
             ?: document.selectFirst("img[src*='images.macellan.online']") 
             ?: document.selectFirst("img")
-        
+
         val poster = posterElement?.let { extractPosterUrl(it) }
-        
-        
+
+
         val yearElement = document.select("div.w-fit.min-w-fit, div.flex.items-center")
             .find { it.text().contains("Yapım Yılı") }
         val year = yearElement?.selectFirst("span.text-sm.opacity-60, span.opacity-60")?.text()
             ?.split(" ")?.last()?.toIntOrNull()
-        
-        
+
+
         val description = document.selectFirst("div.mt-2.text-sm, div.text-sm.opacity-80")?.text()?.trim()
-        
-       
+
+
         val tags = document.selectFirst("div.poster h3, div.flex.items-center.flex-wrap.gap-1")?.text()
             ?.split(",")?.map { it.trim() }
-        
-        
-        val rating = document.selectFirst("div.flex.items-center span.text-white.text-sm, span.text-yellow-400")
-            ?.text()?.trim().toRatingInt()
-        
-        
+
+
+        val ratingString = document.selectFirst("div.flex.items-center span.text-white.text-sm, span.text-yellow-400")
+            ?.text()?.trim()
+
+
         val actors = document.select("div.global-box h5, div.cast-item span").map {
             Actor(it.text())
         }
 
         val episodeses = mutableListOf<Episode>()
 
-        
+
         val seasonLinks = document.select("div.flex.items-center.flex-wrap.gap-2.mb-4 a, div.seasons a")
         for (sezon in seasonLinks) {
             val sezonhref = fixUrl(sezon.attr("href"))
             val sezonReq = app.get(sezonhref, interceptor = interceptor)
-            
-            
+
+
             val split = sezonhref.split("-")
             val season = split.lastOrNull { it.toIntOrNull() != null }?.toIntOrNull()
                 ?: sezon.text().replace("Sezon", "").trim().toIntOrNull()
-            
+
             val sezonDoc = sezonReq.document
-            
-           
+
+
             val episodeElements = sezonDoc.select("div.episodes div.cursor-pointer, div.episodes-box div.episode-item")
             for (bolum in episodeElements) {
                 val epLink = bolum.select("a").lastOrNull() ?: continue
                 val epName = epLink.text().trim()
                 val epHref = fixUrlNull(epLink.attr("href")) ?: continue
-                
-                // Bölüm numarası çıkarma
+
+
                 val epNumberText = bolum.selectFirst("a, span.episode-number")?.text()?.trim() ?: ""
                 val epEpisode = epNumberText.replace("Bölüm", "").trim().toIntOrNull()
-                
+
                 val newEpisode = newEpisode(epHref) {
                     this.name = epName
                     this.season = season
@@ -415,7 +414,7 @@ class Dizilla : MainAPI() {
             this.year = year
             this.plot = description
             this.tags = tags
-            this.score = Score.from10(rating)
+            this.score = Score.from10(ratingString)
             addActors(actors)
         }
     }
@@ -427,8 +426,8 @@ class Dizilla : MainAPI() {
         callback: (ExtractorLink) -> Unit
     ): Boolean {
         val document = app.get(data, interceptor = interceptor).document
-        
-        
+
+
         val script = document.selectFirst("script#__NEXT_DATA__")?.data()
         if (script != null) {
             try {
@@ -446,11 +445,11 @@ class Dizilla : MainAPI() {
                 }
             } catch (e: Exception) {
                 Log.e("Dizilla", "Error parsing NEXT_DATA: ${e.message}")
-                
+
             }
         }
-        
-        
+
+
         val iframes = document.select("iframe")
         if (iframes.isNotEmpty()) {
             for (iframe in iframes) {
@@ -461,8 +460,8 @@ class Dizilla : MainAPI() {
                 }
             }
         }
-        
-        
+
+
         val dataSrcIframes = document.select("[data-src]").filter { it.tagName() == "iframe" || it.hasAttr("data-src") }
         if (dataSrcIframes.isNotEmpty()) {
             for (iframe in dataSrcIframes) {
@@ -473,7 +472,7 @@ class Dizilla : MainAPI() {
                 }
             }
         }
-        
+
         return false
     }
 
