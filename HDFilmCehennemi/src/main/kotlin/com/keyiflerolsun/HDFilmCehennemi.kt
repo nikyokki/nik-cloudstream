@@ -44,7 +44,7 @@ import org.jsoup.nodes.Element
 import java.lang.Math.floorMod
 
 class HDFilmCehennemi : MainAPI() {
-    override var mainUrl = "https://www.hdfilmcehennemi.com"
+    override var mainUrl = "https://www.hdfilmcehennemi.nl"
     override var name = "HDFilmCehennemi"
     override val hasMainPage = true
     override var lang = "tr"
