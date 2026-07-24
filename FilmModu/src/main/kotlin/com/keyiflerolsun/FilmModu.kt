@@ -32,7 +32,7 @@ import com.lagradost.cloudstream3.utils.ExtractorLinkType
 
 
 class FilmModu : MainAPI() {
-    override var mainUrl = "https://www.filmmodu.vip"
+    override var mainUrl = "https://www.filmmodu.one"
     override var name = "FilmModu"
     override val hasMainPage = true
     override var lang = "tr"

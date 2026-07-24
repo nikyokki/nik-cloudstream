@@ -31,7 +31,7 @@ import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
 
 class FullHDFilmizlesene : MainAPI() {
-    override var mainUrl = "https://www.fullhdfilmizlesene.so"
+    override var mainUrl = "https://www.fullhdfilmizlesene.cz"
     override var name = "FullHDFilmizlesene"
     override val hasMainPage = true
     override var lang = "tr"
