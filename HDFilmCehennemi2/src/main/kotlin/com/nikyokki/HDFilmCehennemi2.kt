@@ -31,7 +31,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class HDFilmCehennemi2 : MainAPI() {
-    override var mainUrl = "https://www.hdfilmcehennemi2.site"
+    override var mainUrl = "https://www.hdfilmcehennemi2.biz"
     override var name = "HDFilmCehennemi2"
     override val hasMainPage = true
     override var lang = "tr"

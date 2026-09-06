@@ -35,7 +35,7 @@ import okhttp3.RequestBody.Companion.toRequestBody
 import org.jsoup.nodes.Element
 
 class JetFilmizle : MainAPI() {
-    override var mainUrl = "https://jetfilmizle.website"
+    override var mainUrl = "https://jetfilmizle.now"
     override var name = "JetFilmizle"
     override val hasMainPage = true
     override var lang = "tr"
