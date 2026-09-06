@@ -29,7 +29,7 @@ import com.lagradost.cloudstream3.utils.newExtractorLink
 import org.jsoup.nodes.Element
 
 class DiziYou : MainAPI() {
-    override var mainUrl = "https://www.diziyou.to"
+    override var mainUrl = "https://www.diziyou.one"
     override var name = "DiziYou"
     override val hasMainPage = true
     override var lang = "tr"

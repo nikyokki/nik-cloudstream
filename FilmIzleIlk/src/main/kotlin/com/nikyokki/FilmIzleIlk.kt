@@ -31,7 +31,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Element
 
 class FilmIzleIlk : MainAPI() {
-    override var mainUrl = "https://www.filmizleilk.site"
+    override var mainUrl = "https://www.filmizleilk.online"
     override var name = "Filmİzleİlk"
     override val hasMainPage = true
     override var lang = "tr"
