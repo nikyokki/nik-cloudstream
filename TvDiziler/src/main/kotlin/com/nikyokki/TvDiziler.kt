@@ -15,7 +15,7 @@ import com.lagradost.cloudstream3.extractors.JWPlayer
 import org.jsoup.Jsoup
 
 class TvDiziler : MainAPI() {
-    override var mainUrl              = "https://tvdiziler.cc/home"
+    override var mainUrl              = "https://tvdiziler.tv"
     override var name                 = "TvDiziler"
     override val hasMainPage          = true
     override var lang                 = "tr"
@@ -332,5 +332,5 @@ data class TvDiziFile(
 
 class TvDizilerOynat : JWPlayer() {
     override val name = "TvDizilerOynat"
-    override val mainUrl = "https://tvdiziler.cc/home/player/oynat/"
+    override val mainUrl = "https://tvdiziler.tv/player/oynat/"
 }
